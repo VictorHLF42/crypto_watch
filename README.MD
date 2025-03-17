@@ -20,10 +20,10 @@ Este projeto é uma aplicação em Python que consulta a API CoinGecko para obte
 
 Certifique-se de ter o Python 3.x instalado em sua máquina. Para instalar a biblioteca `requests`, execute:
 
-```bash
+
 pip install requests
 
-## 🤝 Contribuições
+##  🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
@@ -33,3 +33,5 @@ Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para
 
 Licença PFOR
 Este projeto também utiliza a licença PFOR. Para mais informações sobre a licença PFOR, consulte a documentação oficial.
+
+```bash
