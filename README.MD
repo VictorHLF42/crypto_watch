@@ -1,37 +1,53 @@
-# 🚀 Cotações de Criptomoedas
+# Cotações de Criptomoedas e NFTs
 
-## 📝 Descrição
+Este projeto exibe as cotações atuais de criptomoedas e NFTs de forma interativa e dinâmica. As informações são obtidas em tempo real através da API da CoinGecko e apresentadas de maneira organizada em uma página web.
 
-Este projeto é uma aplicação em Python que consulta a API CoinGecko para obter as cotações de várias criptomoedas em Reais (BRL). As cotações são apresentadas em uma página HTML formatada, com links para mais informações sobre cada criptomoeda.
+## Recursos Principais
 
-## 🌟 Funcionalidades
+- Exibição de cotações atualizadas para **BRZ**, **Bitcoin** e **Ethereum**.
+- Links diretos para mais detalhes sobre cada criptoativo.
+- Gráfico dinâmico para visualizar a variação dos preços nos últimos 7 dias.
+- Apresentação de uma NFT exclusiva do proprietário **Victor Hugo Lopes Fernandes de Souza**.
 
-- 📈 Consulta cotações de BRZ, Bitcoin e Ethereum.
-- 💰 Exibição das cotações com vírgulas como separadores decimais.
-- 🖥️ Geração de um arquivo HTML amigável e responsivo.
-- 🌐 Abertura automática da página HTML no navegador.
+## Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
+- **HTML, CSS e JavaScript** para a interface e dinamismo da página.
+- **Chart.js** para visualização gráfica da variação das criptomoedas.
+- **Python (Requests, Webbrowser, Locale)** para coleta e formatação dos dados da API.
+- **CoinGecko API** para consulta de preços de criptomoedas em tempo real.
 
-- Python 3.x
-- Biblioteca `requests`
+## Instalação e Execução
 
-## 📦 Pré-requisitos
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/cotacoes-criptomoedas.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd cotacoes-criptomoedas
+   ```
+3. Instale as dependências Python (se necessário):
+   ```sh
+   pip install requests
+   ```
+4. Execute o script Python para gerar e abrir a página:
+   ```sh
+   python script.py
+   ```
 
-Certifique-se de ter o Python 3.x instalado em sua máquina. Para instalar a biblioteca `requests`, execute:
+## Informações sobre a NFT
+
+Este projeto também apresenta uma NFT exclusiva do proprietário **Victor Hugo Lopes Fernandes de Souza**. Você pode visualizar essa NFT clicando no link abaixo:
+
+🔗 [Minha NFT](https://revictrador.testnet.nfts2.me)
+
+## Contribuição
+
+Sinta-se à vontade para contribuir! Se você deseja sugerir melhorias ou adicionar novos recursos, faça um fork do repositório e abra um pull request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 
-pip install requests
 
-##  🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## 📜 licença
-
-Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
-
-Licença PFOR
-Este projeto também utiliza a licença PFOR. Para mais informações sobre a licença PFOR, consulte a documentação oficial.
-
-```bash
